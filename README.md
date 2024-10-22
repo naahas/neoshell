@@ -1,5 +1,5 @@
 # **NEOSHELL EST UN MINI SHELL INTERACTIF RÉALISÉ EN C**
-![Capture d'écran 2024-10-22 233833](https://github.com/user-attachments/assets/4a94b3e1-e936-4f49-b2c0-a5546a014f32)
+![Capture d'écran 2024-10-22 235258](https://github.com/user-attachments/assets/ce539599-46bf-4dc6-9e59-563a9fb572ec)
 
 
 ## FONCTIONNEMENT 
