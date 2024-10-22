@@ -9,8 +9,8 @@
 
 
 ## PREREQUIS
-#### ** Compilateur GCC pour C **
-#### ** Outil Make **
+#### **Compilateur GCC pour C**
+#### **Outil Make**
 
 
 ## COMMANDES DISPONIBLES
