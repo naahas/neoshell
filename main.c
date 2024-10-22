@@ -51,7 +51,7 @@ Command commands[] = {
 
 int main(int argc, char *argv[]) {
     printf("---------------------------------------------------- \n");
-    printf("--------------- INTERACTIVE SHELL ON --------------- \n");
+    printf("--------------- NEOSHELL ON --------------- \n");
     printf("---------------------------------------------------- \n");
 
 
