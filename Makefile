@@ -1,7 +1,7 @@
 
 CC = gcc                   
 CFLAGS = -Wall -g
-TARGET = go      
+TARGET = launch      
 SOURCES = main.c commands/show.c commands/pwd.c commands/cdir.c commands/rdir.c
 
 OBJECTS = $(SOURCES:.c=.o)
