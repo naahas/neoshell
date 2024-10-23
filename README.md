@@ -18,3 +18,6 @@
 ##### *show* (ls)
 ##### *cdir* (mkdir)
 ##### *rdir* (rmdir)
+##### *rfile* (rm)
+##### *go* (cd)
+##### *cls* (clear/cls)
