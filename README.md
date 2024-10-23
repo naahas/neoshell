@@ -4,7 +4,7 @@
 
 ## FONCTIONNEMENT 
 #### 1 - Clonez le projet 
-#### 2 - Rendez vous dans le répertoire **neoshell*
+#### 2 - Rendez vous dans le répertoire **neoshell**
 #### 3 - Compilez le projet et executez le shell en une fois avec **make**
 
 
