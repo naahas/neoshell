@@ -9,6 +9,11 @@
 #include "commands/pwd.h"
 #include "commands/cdir.h"
 #include "commands/rdir.h"
+#include "commands/go.h"
+#include "commands/cls.h"
+#include "commands/rfile.h"
+#include "commands/mv.h"
+#include "commands/man.h"
 
 
 #define MAXIN 256
@@ -39,6 +44,11 @@ Command commands[] = {
     {"exit" , exit_shell},
     {"cdir" , cdir},
     {"rdir" , rdir},
+    {"go" , go},
+    {"cls" , cls},
+    {"rfile" , rfile},
+    {"mv" , mv},
+    {"man" , man},
     {NULL , NULL}
 };
 
