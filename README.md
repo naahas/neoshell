@@ -16,10 +16,13 @@
 ## COMMANDES DISPONIBLES
 ##### *pwd*  (pwd)
 ##### *show* (ls)
+##### *mv* (mv)
+##### *cp (-r)*
 ##### *cdir* (mkdir)
 ##### *rdir (-r)* (rmdir + rm -r)
+##### *cfile* (touch)
 ##### *rfile* (rm)
 ##### *go* (cd)
 ##### *cls* (clear/cls)
-##### *mv* (mv)
+##### *disp* (cat)
 ##### *man* (help)
