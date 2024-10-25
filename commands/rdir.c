@@ -40,6 +40,18 @@ int rdir(int argc , char * argv []) {
 
             if (strcmp(remove_dir, "-r") == 0) continue;
 
+            struct stat dirstat;
+
+            if(stat(remove_dir , &dirstat) != 0) {
+                fprintf(stderr ,  "\e[1;31merreur:\e[0m le repertoire '%s' n'existe pas \n", remove_dir);
+                continue;
+            }
+
+            if (!S_ISDIR(dirstat.st_mode)) {
+                fprintf(stderr , "\e[1;31merreur:\e[0m '%s' n'est pas un repertoire\n", remove_dir);
+                continue;
+            }
+
             
             if (is_dir_empty(remove_dir) != 0) { 
                 if (rmdir(remove_dir) != 0) {

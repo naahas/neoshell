@@ -14,6 +14,9 @@
 #include "commands/rfile.h"
 #include "commands/mv.h"
 #include "commands/man.h"
+#include "commands/cp.h"
+#include "commands/cfile.h"
+#include "commands/disp.h"
 
 
 #define MAXIN 256
@@ -49,6 +52,9 @@ Command commands[] = {
     {"rfile" , rfile},
     {"mv" , mv},
     {"man" , man},
+    {"cfile" , cfile},
+    {"cp" , cp},
+    {"disp" , disp},
     {NULL , NULL}
 };
 
